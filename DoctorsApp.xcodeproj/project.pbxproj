@@ -9,13 +9,20 @@
 /* Begin PBXBuildFile section */
 		5D597A55297C5F7000AEB7A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D597A54297C5F7000AEB7A1 /* AppDelegate.swift */; };
 		5D597A57297C5F7000AEB7A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D597A56297C5F7000AEB7A1 /* SceneDelegate.swift */; };
-		5D597A59297C5F7000AEB7A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D597A58297C5F7000AEB7A1 /* ViewController.swift */; };
-		5D597A5C297C5F7000AEB7A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D597A5A297C5F7000AEB7A1 /* Main.storyboard */; };
 		5D597A5F297C5F7000AEB7A1 /* DoctorsApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5D597A5D297C5F7000AEB7A1 /* DoctorsApp.xcdatamodeld */; };
 		5D597A61297C5F7D00AEB7A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D597A60297C5F7D00AEB7A1 /* Assets.xcassets */; };
 		5D597A64297C5F7D00AEB7A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D597A62297C5F7D00AEB7A1 /* LaunchScreen.storyboard */; };
 		5D597A6F297C5F7D00AEB7A1 /* DoctorsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D597A6E297C5F7D00AEB7A1 /* DoctorsAppTests.swift */; };
 		5D597A7A297C5F7E00AEB7A1 /* DoctorsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D597A79297C5F7E00AEB7A1 /* DoctorsAppUITests.swift */; };
+		5D597A91297C623F00AEB7A1 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D597A90297C623F00AEB7A1 /* HomeVC.swift */; };
+		5D597A9F297C66D700AEB7A1 /* ext_color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D597A9E297C66D700AEB7A1 /* ext_color.swift */; };
+		5D597AA4297C7AC500AEB7A1 /* ext_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D597AA3297C7AC500AEB7A1 /* ext_view.swift */; };
+		5D597AA9297C7B1600AEB7A1 /* ext_autolay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D597AA8297C7B1600AEB7A1 /* ext_autolay.swift */; };
+		5D597AAE297C83B200AEB7A1 /* ext_button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D597AAD297C83B200AEB7A1 /* ext_button.swift */; };
+		5D69DBAF297DB65500D79171 /* exr_label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D69DBAE297DB65500D79171 /* exr_label.swift */; };
+		5D69DBC2297DD94100D79171 /* ext_images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D69DBC1297DD94100D79171 /* ext_images.swift */; };
+		5D69DBC7297DE70000D79171 /* ext_stackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D69DBC6297DE70000D79171 /* ext_stackView.swift */; };
+		5DD4F55F2985CAD4002CEA15 /* PetionetAppointmentRequiresDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD4F55E2985CAD4002CEA15 /* PetionetAppointmentRequiresDetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +46,6 @@
 		5D597A51297C5F7000AEB7A1 /* DoctorsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoctorsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D597A54297C5F7000AEB7A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D597A56297C5F7000AEB7A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5D597A58297C5F7000AEB7A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5D597A5B297C5F7000AEB7A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5D597A5E297C5F7000AEB7A1 /* DoctorsApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DoctorsApp.xcdatamodel; sourceTree = "<group>"; };
 		5D597A60297C5F7D00AEB7A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D597A63297C5F7D00AEB7A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +56,25 @@
 		5D597A75297C5F7E00AEB7A1 /* DoctorsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoctorsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D597A79297C5F7E00AEB7A1 /* DoctorsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsAppUITests.swift; sourceTree = "<group>"; };
 		5D597A7B297C5F7E00AEB7A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D597A90297C623F00AEB7A1 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		5D597A9E297C66D700AEB7A1 /* ext_color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ext_color.swift; sourceTree = "<group>"; };
+		5D597AA3297C7AC500AEB7A1 /* ext_view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ext_view.swift; sourceTree = "<group>"; };
+		5D597AA8297C7B1600AEB7A1 /* ext_autolay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ext_autolay.swift; sourceTree = "<group>"; };
+		5D597AAD297C83B200AEB7A1 /* ext_button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ext_button.swift; sourceTree = "<group>"; };
+		5D69DBAE297DB65500D79171 /* exr_label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exr_label.swift; sourceTree = "<group>"; };
+		5D69DBB4297DB77500D79171 /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
+		5D69DBB5297DB77600D79171 /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		5D69DBB6297DB77600D79171 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		5D69DBB7297DB77600D79171 /* Lato-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-ThinItalic.ttf"; sourceTree = "<group>"; };
+		5D69DBB8297DB77600D79171 /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Thin.ttf"; sourceTree = "<group>"; };
+		5D69DBB9297DB77600D79171 /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		5D69DBBA297DB77600D79171 /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		5D69DBBB297DB77600D79171 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		5D69DBBC297DB77700D79171 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		5D69DBBD297DB77700D79171 /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		5D69DBC1297DD94100D79171 /* ext_images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ext_images.swift; sourceTree = "<group>"; };
+		5D69DBC6297DE70000D79171 /* ext_stackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ext_stackView.swift; sourceTree = "<group>"; };
+		5DD4F55E2985CAD4002CEA15 /* PetionetAppointmentRequiresDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetionetAppointmentRequiresDetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +125,15 @@
 		5D597A53297C5F7000AEB7A1 /* DoctorsApp */ = {
 			isa = PBXGroup;
 			children = (
-				5D597A54297C5F7000AEB7A1 /* AppDelegate.swift */,
-				5D597A56297C5F7000AEB7A1 /* SceneDelegate.swift */,
-				5D597A58297C5F7000AEB7A1 /* ViewController.swift */,
-				5D597A5A297C5F7000AEB7A1 /* Main.storyboard */,
-				5D597A60297C5F7D00AEB7A1 /* Assets.xcassets */,
-				5D597A62297C5F7D00AEB7A1 /* LaunchScreen.storyboard */,
+				5D597A9D297C64F600AEB7A1 /* Extentions */,
+				5D597A9C297C64DB00AEB7A1 /* Animations */,
+				5D597A9B297C647100AEB7A1 /* Network */,
+				5D597A9A297C646100AEB7A1 /* Constents */,
+				5D597A99297C63DE00AEB7A1 /* livecycles */,
+				5D597A98297C63C900AEB7A1 /* Utilities */,
+				5D597A95297C636800AEB7A1 /* Model */,
+				5D597A96297C63AA00AEB7A1 /* View */,
+				5D597A97297C63B100AEB7A1 /* ViewModel */,
 				5D597A65297C5F7D00AEB7A1 /* Info.plist */,
 				5D597A5D297C5F7000AEB7A1 /* DoctorsApp.xcdatamodeld */,
 			);
@@ -129,6 +156,108 @@
 				5D597A7B297C5F7E00AEB7A1 /* Info.plist */,
 			);
 			path = DoctorsAppUITests;
+			sourceTree = "<group>";
+		};
+		5D597A95297C636800AEB7A1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5D597A96297C63AA00AEB7A1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5DACBA44297F44ED00E123DF /* CustomsCell */,
+				5D597A90297C623F00AEB7A1 /* HomeVC.swift */,
+				5DD4F55E2985CAD4002CEA15 /* PetionetAppointmentRequiresDetailVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5D597A97297C63B100AEB7A1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5D597A98297C63C900AEB7A1 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5D69DBB3297DB76500D79171 /* Fonts */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		5D597A99297C63DE00AEB7A1 /* livecycles */ = {
+			isa = PBXGroup;
+			children = (
+				5D597A54297C5F7000AEB7A1 /* AppDelegate.swift */,
+				5D597A56297C5F7000AEB7A1 /* SceneDelegate.swift */,
+				5D597A60297C5F7D00AEB7A1 /* Assets.xcassets */,
+				5D597A62297C5F7D00AEB7A1 /* LaunchScreen.storyboard */,
+			);
+			path = livecycles;
+			sourceTree = "<group>";
+		};
+		5D597A9A297C646100AEB7A1 /* Constents */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constents;
+			sourceTree = "<group>";
+		};
+		5D597A9B297C647100AEB7A1 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		5D597A9C297C64DB00AEB7A1 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		5D597A9D297C64F600AEB7A1 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				5D597A9E297C66D700AEB7A1 /* ext_color.swift */,
+				5D597AA3297C7AC500AEB7A1 /* ext_view.swift */,
+				5D597AA8297C7B1600AEB7A1 /* ext_autolay.swift */,
+				5D597AAD297C83B200AEB7A1 /* ext_button.swift */,
+				5D69DBAE297DB65500D79171 /* exr_label.swift */,
+				5D69DBC1297DD94100D79171 /* ext_images.swift */,
+				5D69DBC6297DE70000D79171 /* ext_stackView.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		5D69DBB3297DB76500D79171 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5D69DBBD297DB77700D79171 /* Lato-Black.ttf */,
+				5D69DBB4297DB77500D79171 /* Lato-BlackItalic.ttf */,
+				5D69DBB6297DB77600D79171 /* Lato-Bold.ttf */,
+				5D69DBB5297DB77600D79171 /* Lato-BoldItalic.ttf */,
+				5D69DBBA297DB77600D79171 /* Lato-Italic.ttf */,
+				5D69DBBB297DB77600D79171 /* Lato-Light.ttf */,
+				5D69DBB9297DB77600D79171 /* Lato-LightItalic.ttf */,
+				5D69DBBC297DB77700D79171 /* Lato-Regular.ttf */,
+				5D69DBB8297DB77600D79171 /* Lato-Thin.ttf */,
+				5D69DBB7297DB77600D79171 /* Lato-ThinItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		5DACBA44297F44ED00E123DF /* CustomsCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomsCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +365,6 @@
 			files = (
 				5D597A64297C5F7D00AEB7A1 /* LaunchScreen.storyboard in Resources */,
 				5D597A61297C5F7D00AEB7A1 /* Assets.xcassets in Resources */,
-				5D597A5C297C5F7000AEB7A1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +389,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D597A59297C5F7000AEB7A1 /* ViewController.swift in Sources */,
+				5D69DBC7297DE70000D79171 /* ext_stackView.swift in Sources */,
 				5D597A55297C5F7000AEB7A1 /* AppDelegate.swift in Sources */,
+				5D597A91297C623F00AEB7A1 /* HomeVC.swift in Sources */,
+				5DD4F55F2985CAD4002CEA15 /* PetionetAppointmentRequiresDetailVC.swift in Sources */,
+				5D597AA4297C7AC500AEB7A1 /* ext_view.swift in Sources */,
 				5D597A5F297C5F7000AEB7A1 /* DoctorsApp.xcdatamodeld in Sources */,
 				5D597A57297C5F7000AEB7A1 /* SceneDelegate.swift in Sources */,
+				5D69DBC2297DD94100D79171 /* ext_images.swift in Sources */,
+				5D597A9F297C66D700AEB7A1 /* ext_color.swift in Sources */,
+				5D597AA9297C7B1600AEB7A1 /* ext_autolay.swift in Sources */,
+				5D69DBAF297DB65500D79171 /* exr_label.swift in Sources */,
+				5D597AAE297C83B200AEB7A1 /* ext_button.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +436,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5D597A5A297C5F7000AEB7A1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5D597A5B297C5F7000AEB7A1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5D597A62297C5F7D00AEB7A1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
